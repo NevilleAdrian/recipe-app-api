@@ -20,5 +20,5 @@ python manage.py migrate
 # Master mens the uswgi daemon will be the master thread
 # Enable threads which means if we use any multithreading we can use it through the wsgi service
 #  Module app.wgi helps to run app app wsgi, it tells the uwsgi service thats the entery to thr project
-uswqi --socket :9000 --workers 4 --master --enable-threads --module app.wsgi
+uswgi --socket :9000 --workers 4 --master --enable-threads --module app.wsgi
 
