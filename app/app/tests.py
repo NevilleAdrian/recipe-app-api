@@ -11,14 +11,12 @@ class CalcTests(SimpleTestCase):
     def test_add_number(self):
 
         res = calc.add(5,6)
-    
-        self.assertEqual(res, 11) 
+
+        self.assertEqual(res, 11)
 
 
     def test_substract_number(self):
 
         res = calc.subtract(15,10)
 
-        self.assertEqual(res, 5) 
-
-        
+        self.assertEqual(res, 5)
